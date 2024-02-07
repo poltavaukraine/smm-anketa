@@ -2,7 +2,6 @@ html, body {
     height: 100%;
 }
 body {
-    background-color: aquamarine;
     font-family: 'Courier New', Courier, monospace;
 }
 img {
@@ -27,6 +26,9 @@ img {
 }
 .w_70 {
     width: 70%;
+}
+.text_center {
+    text-align: center;
 }
 .wrapper header {
     display: flex;
@@ -69,6 +71,7 @@ img {
 }
 .right_aside {
     width: 70%;
+    padding: 40px;
 }
 .contact-info {
     padding: 25px 15px;
@@ -92,6 +95,23 @@ img {
     font-size: 14px;
     margin-left: 15px;
 }
+.profile-info-header {
+    font-size: 38px;
+    font-weight: 900;
+}
+.profile-info-text {
+    font-size: 26px;
+    padding: 25px 20px;
+}
+.profile-info-list {
+    font-size: 26px;
+    list-style: disc;
+    list-style-position: inside;
+    padding: 25px 20px;
+}
+.profile-info-list li {
+    margin: 5px;
+}
 .wrapper footer {
-
+    
 }
