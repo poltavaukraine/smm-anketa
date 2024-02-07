@@ -61,7 +61,36 @@ img {
     padding: 12px 0px;
 }
 .wrapper main {
-
+    display: flex;
+    justify-content: space-between;
+}
+.left_aside {
+    width: 30%;
+}
+.right_aside {
+    width: 70%;
+}
+.contact-info {
+    padding: 25px 15px;
+}
+.contact-info-header {
+    margin-top: 60px;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 900;
+}
+.contact-info-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 24px 0px;
+}
+.contact-info-row  img {
+    width: 20px;
+}
+.contact-info-row span{
+    font-size: 14px;
+    margin-left: 15px;
 }
 .wrapper footer {
 
