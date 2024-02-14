@@ -69,12 +69,14 @@ img {
 .left_aside {
     width: 30%;
 }
+
+
 .right_aside {
     width: 70%;
     padding: 40px;
 }
 .contact-info {
-    padding: 25px 15px;
+    padding: 278px 15px;
 }
 .contact-info-header {
     margin-top: 60px;
@@ -112,6 +114,14 @@ img {
 .profile-info-list li {
     margin: 5px;
 }
+.audit{
+    font-size: 30px;
+    font-weight: 555px;
+    background-color: #fff3cb;
+    padding: 10px 10px;
+}
+
 .wrapper footer {
-    
+    padding: 20px 10px;
+    background-color: #8edde4;
 }
